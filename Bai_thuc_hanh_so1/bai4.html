@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form class="employee-form">
+
+    <fieldset>
+      <legend>Basic Info</legend>
+      <label>Employee ID <input type="text" value="9" readonly></label>
+      <label>Last Name <input type="text" value="Dodsworth"></label>
+      <label>First Name <input type="text" value="Anne"></label>
+
+      <label>Gender</label>
+      <div class="radio-group">
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> XXX</label>
+        <label><input type="radio" name="gender" checked> ZZZ</label>
+      </div>
+
+      <label>Title <input type="text" value="Sales Representative"></label>
+      <label>Suffix <input type="text" value="Ms."></label>
+      <label>BirthDate <input type="datetime-local" value="1969-07-02T00:00"></label>
+      <label>HireDate <input type="datetime-local" value="1994-11-15T00:00"></label>
+      <label>SSN # (if applicable) <input type="text"></label>
+
+      <label>Reports To
+        <select>
+          <option>Buchanan</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Contact Info</legend>
+      <label>Email <input type="email" placeholder="name@example.com"></label>
+      <label>Address <input type="text" value="7 Houndstooth Rd."></label>
+      <label>City <input type="text" value="London"></label>
+      <label>Region <input type="text"></label>
+      <label>Postal Code <input type="text" value="WG2 7LT"></label>
+      <label>Country
+        <select>
+          <option>Russian Federation</option>
+        </select>
+      </label>
+      <label>US Home Phone <input type="tel" value="(234)234-2342"></label>
+      <label>Photo <input type="text" value="EmpID9.bmp"></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Optional Info</legend>
+      <label>Notes
+        <textarea rows="5">Anne has a BA degree in English from St. Lawrence College.
+She is fluent in French and German.ZZZ</textarea>
+      </label>
+
+      <label>Preferred Shift</label>
+      <label><input type="checkbox"> Regular</label>
+      <label><input type="checkbox"> Gravy Yard</label>
+
+      <label>Active? <input type="checkbox"></label>
+
+      <label>Are you human?</label>
+      <div class="captcha">
+        <div class="captcha-code">TIDAWO</div>
+        <button type="button">Click to change</button>
+      </div>
+      <input type="text">
+    </fieldset>
+
+    <div class="form-actions">
+      <button type="submit">Submit</button>
+      <button type="reset">Cancel</button>
+    </div>
+
+  </form>
+</body>
+</html>

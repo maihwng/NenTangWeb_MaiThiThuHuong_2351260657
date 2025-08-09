@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .employee-form {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+  }
+  
+  fieldset {
+    border: 1px solid #aaa;
+    margin-bottom: 20px;
+    padding: 15px;
+  }
+  
+  legend {
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="datetime-local"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .radio-group {
+    display: block;
+  }
+  
+  .radio-group label {
+    display: block;
+    margin-left: 10px;
+  }
+  
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  .captcha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+  }
+  
+  .captcha-code {
+    font-family: monospace;
+    font-size: 24px;
+    background-color: #eee;
+    padding: 5px 10px;
+    border: 1px dashed #999;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 8px 16px;
+  }
+  
